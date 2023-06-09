@@ -13,13 +13,13 @@ function App() {
        <VStack p={5}>
     <Flex w="100%">
    <Heading 
-   ml="8" size="lg" fontWeight="bold" bgGradient="linear(to-r,cyan.400,blue.500,purple.600)" bgClip='text'>Rahul</Heading> 
+   ml="8" size="lg" fontWeight="bold" bgGradient="linear(to-r,cyan.400,blue.500,purple.600)" bgClip='text'>RITISH</Heading> 
     
     <Spacer></Spacer>
- <IconButton  icon={<FaLinkedin />} isRound='true'></IconButton>
-    <IconButton ml={2} icon={<FaInstagram/>} isRound='true' ></IconButton>
-    <IconButton ml={2} icon={<FaGithub/>} isRound='true' ></IconButton>
-    <IconButton ml={8} icon={isDark ? <FaSun />:<FaMoon />} isRound='true'></IconButton>
+ <a href="https://www.linkedin.com/in/ritish-bhatoye/"><IconButton  icon={<FaLinkedin />} isRound='true'></IconButton></a>
+<a href=" https://instagram.com/ritish_._?igshid=MzRlODBiNWFlZA=="> <IconButton ml={2} icon={<FaInstagram/>} isRound='true' ></IconButton></a>
+<a href="https://github.com/ritishBhatoye"><IconButton ml={2} icon={<FaGithub/>} isRound='true' ></IconButton></a>
+    <IconButton ml={8} icon={isDark ? <FaSun />:<FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
     </Flex>
     <Header></Header>
     <Social></Social>

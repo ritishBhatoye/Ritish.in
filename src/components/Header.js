@@ -2,7 +2,7 @@ import { useColorMode} from '@chakra-ui/color-mode'
 import { Stack,Circle,Flex,Box,Text } from '@chakra-ui/layout';
 import { useMediaQuery } from '@chakra-ui/media-query';
 import { Button, Image } from '@chakra-ui/react';
-import Ritish from './RITISH BHATOYE.pdf'
+import Ritish from './RITISH BHATOYE-3.pdf'
 import React from 'react'
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
               <Flex direction={isNotSmallerScreen?"row":"column"}>
         <Button mt={8} colorScheme="blue"><a href="https://www.linkedin.com/in/ritish-bhatoye/">Hire Me</a></Button> 
                <a href={Ritish}
-        download="Example-PDF-document"
+        download="Ritish_Bhatoye_CV"
         target="_blank"
         rel="noreferrer"
         > 

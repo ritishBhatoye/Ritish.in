@@ -18,7 +18,7 @@ const Header = () => {
        <Text fontSize="5xl"fontWeight="semibold">Hi, I am </Text>
        <Text fontSize="7xl"fontWeight="bold" bgGradient="linear(to-r,cyan.400,blue.500,purple.600)" bgClip='text'>Ritish Bhatoye</Text>
        <Text color={isDark?"gray.200":"gray.500"} >MERN - Firebase,React,React Native,FreeLancer,Trader & Entrepreneur</Text>
-       <div pt={"8"}>
+       <div p={"15"}>
         <Button mt={8} colorScheme="blue"><a href="https://www.linkedin.com/in/ritish-bhatoye/">Hire Me</a></Button> 
         <Button mt={8} colorScheme="blue"><a href="https://www.linkedin.com/in/ritish-bhatoye/">Download CV</a></Button> 
         </div>

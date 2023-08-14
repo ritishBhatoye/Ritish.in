@@ -27,7 +27,9 @@ const Header = () => {
         target="_blank"
         rel="noreferrer"    
             >
-        <Button mt={8} colorScheme="blue">Download CV</Button> 
+        <Button mt={8} colorScheme="blue">
+            Download CV
+            </Button> 
         </a>
         </div>
         </Box> 

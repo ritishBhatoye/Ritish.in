@@ -2,6 +2,7 @@ import { useColorMode} from '@chakra-ui/color-mode'
 import { Stack,Circle,Flex,Box,Text } from '@chakra-ui/layout';
 import { useMediaQuery } from '@chakra-ui/media-query';
 import { Button, Image } from '@chakra-ui/react';
+import {Ritish} form './RITISH BHATOYE-2.pdf'
 import React from 'react'
 
 const Header = () => {
@@ -20,7 +21,14 @@ const Header = () => {
        <Text color={isDark?"gray.200":"gray.500"} >MERN - Firebase,React,React Native,FreeLancer,Trader & Entrepreneur</Text>
        <div p={"15"}>
         <Button mt={8} colorScheme="blue"><a href="https://www.linkedin.com/in/ritish-bhatoye/">Hire Me</a></Button> 
-        <Button mt={8} colorScheme="blue"><a href="https://www.linkedin.com/in/ritish-bhatoye/">Download CV</a></Button> 
+       <a 
+        href="Ritish"
+        download="CV"
+        target="_blank"
+        rel="noreferrer"    
+            >
+        <Button mt={8} colorScheme="blue">Download CV</Button> 
+        </a>
         </div>
         </Box> 
         <Image alignSelf="center" mt={isNotSmallerScreen?"0":"12"} mb={isNotSmallerScreen?"0":"12"} borderRadius='full' backgroundColor="transparent" boxShadow="lg" boxSize="250px" h="312px" w="280px" src="https://i.pinimg.com/564x/de/b3/08/deb30804477fe3c91b292c028f542022.jpg"/>

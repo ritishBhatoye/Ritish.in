@@ -19,6 +19,7 @@ const Header = () => {
        <Text fontSize="7xl"fontWeight="bold" bgGradient="linear(to-r,cyan.400,blue.500,purple.600)" bgClip='text'>Ritish Bhatoye</Text>
        <Text color={isDark?"gray.200":"gray.500"} >MERN - Firebase,React,React Native,FreeLancer,Trader & Entrepreneur</Text>
        <Button mt={8} colorScheme="blue"><a href="https://www.linkedin.com/in/ritish-bhatoye/">Hire Me</a></Button> 
+       <Button mt={8} colorScheme="blue"><a href="https://www.linkedin.com/in/ritish-bhatoye/">Hire Me</a></Button> 
         </Box> 
         <Image alignSelf="center" mt={isNotSmallerScreen?"0":"12"} mb={isNotSmallerScreen?"0":"12"} borderRadius='full' backgroundColor="transparent" boxShadow="lg" boxSize="250px" h="312px" w="280px" src="https://i.pinimg.com/564x/de/b3/08/deb30804477fe3c91b292c028f542022.jpg"/>
         </Flex> 
